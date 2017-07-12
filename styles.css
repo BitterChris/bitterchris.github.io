@@ -1,14 +1,31 @@
+body {
+  background-color: #eee;
+}
+
 .header {
   margin: 0px auto;
+  display: block;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+button {
+  margin: 0px auto;
+  display: block;
+  width: 480px;
+  height: 50px;
 }
 
 .header p {
+  margin: 0;
   text-align: center;
   color: black;
   font-weight: bold;
   font-size: 36px;
   font-family: Verdana, sans-serif;
   text-transform: uppercase;
+  display: block;
+  padding-bottom: 30px;
 }
 
 .container {
@@ -16,16 +33,16 @@
 }
 
 .square {
-  width: 40px;
-  height: 40px;
-  background-color: #eee;
+  width: 30px;
+  height: 30px;
+  background-color: white;
   display: inline-block;
 }
 
 .square-color {
-  width: 40px;
-  height: 40px;
-  background-color: #000 !important;
+  width: 30px;
+  height: 30px;
+  background-color: #000;
   display: inline-block;
 }
 
