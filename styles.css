@@ -1,0 +1,35 @@
+.header {
+  margin: 0px auto;
+}
+
+.header p {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 36px;
+  font-family: Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+.container {
+  text-align: center;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  background-color: #eee;
+  display: inline-block;
+}
+
+.square-color {
+  width: 40px;
+  height: 40px;
+  background-color: #000 !important;
+  display: inline-block;
+}
+
+.row {
+  line-height: 0;
+  display: block;
+}
